@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 import "./App.css";
 import SkillsMarquee from "./SkillsMarquee";
 
-// Define your skill arrays
+
 const frontendSkills = ["HTML", "CSS", "JavaScript", "React", "Bootstrap"];
 const backendSkills = ["Node.js", "Express", "MongoDB", "SQL"];
 const toolsSkills = ["Git/GitHub", "Socket.io", "REST APIs", "MVC Architecture","VS Code"];
@@ -37,11 +37,11 @@ function App() {
       const windowHeight = window.innerHeight;
       let y;
       if (sectionHeight < windowHeight) {
-        // Center the section
+
         const yOffset = -windowHeight / 2 + sectionHeight / 2;
         y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
       } else {
-        // Align top of section with top of viewport, but account for navbar
+ 
         y = section.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
       }
       window.scrollTo({ top: y, behavior: 'smooth' });
@@ -108,10 +108,12 @@ function App() {
                   'Welcome to my portfolio',
                   1000,
                   'Hi, I\'m V MADHAV',
+                  
                 ]}
                 wrapper="span"
                 speed={50}
                 style={{ display: 'inline-block' }}
+               
               />
             </h1>
             <p className="subtitle">
@@ -231,6 +233,55 @@ function App() {
                   </div>
                 )}
               </div>
+              <div 
+                className={`project-card ${expandedProject === 4 ? 'expanded' : ''}`} 
+                onClick={() => toggleProject(4)}
+              >
+                <div className="project-header">
+                  <h3>Online Movie Tickets Bookings 2024</h3>
+                  <span className="expand-icon">{expandedProject === 4 ? '−' : '+'}</span>
+                </div>
+                {expandedProject === 4 && (
+                  <div className="project-details">
+                    <p>Tech Stack: HTML, CSS, Bootstrap, Node.js, Express.js, MongoDB</p>
+                    <ul>
+                      <li>Developed a full-stack web application for online movie ticket booking</li>
+                      <li>Implemented user authentication, seat selection, and payment integration</li>
+                      <li>Designed a responsive UI for a seamless booking experience</li>
+                      <li>Optimized database queries for efficient ticket management</li>
+                    </ul>
+                    <div className="project-links">
+                      <a href="#" className="btn small">View Demo</a>
+                      <a href="#" className="btn small">Source Code</a>
+                    </div>
+                  </div>
+                )}
+              </div>
+              <div 
+                className={`project-card ${expandedProject === 5 ? 'expanded' : ''}`} 
+                onClick={() => toggleProject(5)}
+              >
+                <div className="project-header">
+                <h3>Explore and Stay – Travel Accommodation Discovery</h3>
+                <span className="expand-icon">{expandedProject === 5 ? '−' : '+'}</span>
+                </div>
+                {expandedProject === 5 && (
+                  <div className="project-details">
+                    <p>Tech Stack: HTML, CSS, Node.js, Express.js, MongoDB, Multer</p>
+                    <ul>
+                      <li>Developed a full-stack accommodation discovery platform inspired by Airbnb</li>
+                      <li>Implemented image upload functionality using Multer for property listings</li>
+                      <li>Built backend using Node.js, Express.js, and MongoDB for listing and user data</li>
+                      <li>Designed responsive UI with category-wise filtering for different types of stays</li>
+                      <li>Enabled dynamic rendering of listings by categories like apartments, villas, and shared spaces</li>
+                    </ul>
+                   <div className="project-links">
+                     <a href="#" className="btn small">View Demo</a>
+                    <a href="#" className="btn small">Source Code</a>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </section>
@@ -291,7 +342,7 @@ function App() {
               <p>Location: Chittoor, India</p>
               <div className="social-links">
                 <a href="https://linkedin.com/in/madhav-v-3765352a5" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
-                <a href="https://github.com/Madhavrj12" target="_blank" rel="noopener noreferrer" className="social-link">GitHub</a>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">GitHub</a>
               </div>
             </div>
           </div>
