@@ -1,0 +1,55 @@
+.skills-marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  padding: 1rem 0;
+}
+
+.skills-marquee {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  width: max-content;
+  animation: scroll-left 20s linear infinite;
+  will-change: transform;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.skill-pill {
+  display: flex;
+  align-items: center;
+  background: rgba(100, 108, 255, 0.15);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.5em 1.2em;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(100, 108, 255, 0.08);
+  transition: background 0.2s;
+  border: 1px solid #646cff33;
+}
+
+.skill-pill:hover {
+  background: #646cff;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .skills-marquee {
+    gap: 0.7rem;
+    font-size: 0.95rem;
+  }
+  .skill-pill {
+    padding: 0.4em 0.8em;
+    font-size: 1rem;
+  }
+} 
