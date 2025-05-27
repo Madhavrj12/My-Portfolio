@@ -133,8 +133,8 @@ function App() {
               />
             </p>
             <div className="cta-buttons">
-              <a href="#projects" className="btn primary">View My Work</a>
-              <a href="#contact" className="btn secondary">Contact Me</a>
+              <a href="#" className="btn primary" onClick={e=>handleNavClick(e,'projects')}>View My Work</a>
+              <a href="#contact" className="btn secondary" onClick={e=>handleNavClick(e,'contact')}>Contact Me</a>
             </div>
           </div>
         </section>
