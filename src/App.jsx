@@ -262,12 +262,12 @@ function App() {
                 onClick={() => toggleProject(5)}
               >
                 <div className="project-header">
-                <h3>Explore and Stay – Travel Accommodation Discovery</h3>
+                <h3>WonderLust – Travel Accommodation Discovery</h3>
                 <span className="expand-icon">{expandedProject === 5 ? '−' : '+'}</span>
                 </div>
                 {expandedProject === 5 && (
                   <div className="project-details">
-                    <p>Tech Stack: HTML, CSS, Node.js, Express.js, MongoDB, Multer</p>
+                    <p>Tech Stack: HTML, CSS, Node.js, Express.js, MongoDB, Multer, Cloudinary</p>
                     <ul>
                       <li>Developed a full-stack accommodation discovery platform inspired by Airbnb</li>
                       <li>Implemented image upload functionality using Multer for property listings</li>
@@ -276,8 +276,8 @@ function App() {
                       <li>Enabled dynamic rendering of listings by categories like apartments, villas, and shared spaces</li>
                     </ul>
                    <div className="project-links">
-                     <a href="#" className="btn small">View Demo</a>
-                    <a href="#" className="btn small">Source Code</a>
+                     <a href="https://wanderlust-3-t15z.onrender.com" className="btn small">View Demo</a>
+                    <a href="https://github.com/Madhavrj12/wanderlust" className="btn small">Source Code</a>
                     </div>
                   </div>
                 )}
