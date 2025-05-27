@@ -6,6 +6,7 @@ This is my personal developer portfolio showcasing the projects I've built, tech
 
 
 🛠️ Tech Stack
+
 Frontend: React.js, HTML, CSS, Bootstrap / Tailwind CSS
 
 Animations: TypeAnimation, Framer Motion
@@ -13,6 +14,7 @@ Animations: TypeAnimation, Framer Motion
 Deployment: GitHub Pages / Vercel / Netlify
 
 📁 Features
+
 🔹 Responsive design for desktop and mobile
 
 🔹 Project cards with expandable details
@@ -24,6 +26,7 @@ Deployment: GitHub Pages / Vercel / Netlify
 🔹 Typewriter effects for dynamic intros
 
 📌 Sections Included
+
 Hero section – Intro with animated role titles
 
 Projects – Interactive cards showcasing major projects
@@ -33,10 +36,11 @@ About Me – Brief overview of skills and goals
 Contact – Email, LinkedIn, and GitHub links
 
 📬 Contact
+
 LinkedIn: www.linkedin.com/in/madhav-v-3765352a5
 
-GitHub: github.com/your-username
+GitHub: github.com/Madhavrj12
 
-Email: youremail@example.com
+Email: rjmadhav1201@gmail.com
 
 
