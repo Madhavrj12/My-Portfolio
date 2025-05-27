@@ -39,7 +39,7 @@ Contact – Email, LinkedIn, and GitHub links
 
 LinkedIn: www.linkedin.com/in/madhav-v-3765352a5
 
-GitHub: github.com/Madhavrj12
+GitHub: www.github.com/Madhavrj12
 
 Email: rjmadhav1201@gmail.com
 
