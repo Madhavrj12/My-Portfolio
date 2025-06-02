@@ -214,7 +214,7 @@ function App() {
                 onClick={() => toggleProject(2)}
               >
                 <div className="project-header">
-                  <h3>Hackathon Website</h3>
+                  <h3>Hackathon Website-CodeAce</h3>
                   <span className="expand-icon">{expandedProject === 2 ? '−' : '+'}</span>
                 </div>
                 {expandedProject === 2 && (
@@ -228,7 +228,7 @@ function App() {
                     </ul>
                     <div className="project-links">
                       <a href="#" className="btn small">View Demo</a>
-                      <a href="#" className="btn small">Source Code</a>
+                      <a href="https://github.com/Madhavrj12/CodeAce/" className="btn small">Source Code</a>
                     </div>
                   </div>
                 )}
