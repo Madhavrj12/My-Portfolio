@@ -123,7 +123,7 @@ function App() {
                   1000,
                   'MERN Stack Developer',
                   1000,
-                  'Java Engineer',
+                  'Java Enthusiast',e
                   1000,
                 ]}
                 wrapper="span"
