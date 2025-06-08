@@ -342,7 +342,7 @@ function App() {
               <p>Location: Chittoor, India</p>
               <div className="social-links">
                 <a href="https://linkedin.com/in/madhav-v-3765352a5" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">GitHub</a>
+                <a href="https://github.com/Madhavrj12" target="_blank" rel="noopener noreferrer" className="social-link">GitHub</a>
               </div>
             </div>
           </div>
